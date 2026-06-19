@@ -58,3 +58,11 @@ while loop
 do while loop
 for of loop(arrays)
 for in loop(objects)
+
+
+types of functions
+function declaration'
+function expression
+arrow function(ES6)
+anonymous function
+
