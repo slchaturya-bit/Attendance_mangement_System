@@ -51,3 +51,10 @@ strict equality(===) ==> it is comparing both value and data
 
 
 **asignment**
+
+loops
+for loop
+while loop
+do while loop
+for of loop(arrays)
+for in loop(objects)
