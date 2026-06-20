@@ -2,7 +2,7 @@
 #JavaScript
 It is a high level, dynamically typed, loosely typed, single threaded asynchr, object oriented , event driven programming language
 it is used to make web pages interactive
-it  adds functionality and behaviour to websitesit runs in browsers using node.js
+it  adds functionality and behaviour to websites it runs in browsers using node.js
 
 we can declare variables using 
 var 
@@ -13,7 +13,7 @@ const
 var a = 10 it indicates declaration
 a=10 initialization
 redeclartion and reintialization is possible
-hoisting is possibel with var // not displaying error
+hoisting is possible with var // not displaying error
 
 SCOPES
 var is a functional scope
@@ -61,8 +61,42 @@ for in loop(objects)
 
 
 types of functions
-function declaration'
+function declaration
 function expression
 arrow function(ES6)
-anonymous function
+anonymous function(unkonwn )
+
+=>array methods
+1.add/remove methods
+*push
+*pop -> to remove outdated one
+shift
+unshift
+*splice
+add elementsx
+remove eleemnts
+replace elements
+arr.splice(start,deleteCount,item1,item2,..)
+
+
+2.searching methods
+includes
+indexof
+find
+findIndex
+
+
+3.iterative methods
+forEach
+map
+filter
+diff btw forEach and map method??
+
+
+4.transformation methods
+reduce
+sort
+reverse
+
+
 
