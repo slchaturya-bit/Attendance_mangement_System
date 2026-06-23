@@ -100,3 +100,86 @@ reverse
 
 
 
+DOM it acts as interface btw html and js
+creating element
+let p = document.getElementById("container");
+p.innerText="like";
+// it is used to create html elements in js
+EVENT HANDLING
+click event (onclick)
+double click event (onbclick)
+mouse hover event
+
+
+REACT
+JSX
+component based architecture etc...
+Virtaul DOM is a JS representation of the real DOM that React uses to track UI changes effeciently.
+
+diffing is the process of comapring  old virtual DOM with the new virtaual dom to identify the exact changes the need to be applied to the Real DOM
+
+Reconciliation is the process by which React updates the Real DOM effeciently after diffing by appling only the necessary changes
+
+
+JSX (JavaScript Extensible MarkUp Language)
+It is a syntax extension for JS that allows us to write HTML like code inside JavaScript
+JSX is not HTML
+It only looks like HTML,behind the scenes React converts JSX into JavaScript  using Babel(javaScript Complier)
+JavaScript expressions can be used in jSX by using curly braces{}.
+
+JSX rules
+One Parent Element
+className instead of class
+java Script inside{} // javascript inside HTML
+
+props(properties)
+they are used to pass data from one component to another component
+props are read-only inputs passed from parent component to a child component
+
+Props are passes just like HTML attributes
+//spread operator
+const arr2 =[10,20,30,40]
+const arr = arr2
+console.log(arr)
+arr.push(100)
+console.log(arr)
+
+const arr=[10,20,30]
+const arr3=[...arr]
+console.log()
+spread operator is used to copy and merge the arrays
+
+function greetings(..par){
+    console.log(par)
+}
+greetings(10,20,30) //Rest operator
+
+Prop drilling :- process of passing data from parent compoent tp deeply nested child component 
+parent
+|
+child
+|
+g child
+**redux -> to avoid prop drilling (how?)
+
+
+//hooks
+-useState : used to create and manage state in a functional component
+const [state,setState]=useState(intialValue);array length is 2
+state->intial state,setState->function
+function is used to update the intial value
+
+-useEffect : is a react hook used to perform side effects in a component
+used for API calls,timers,database requests 
+useEffect(()=>{
+},[])
+it allows two parameters function it consists of condition and the other is array
+
+-useContext : 
+
+BACKEND
+npm node package manager
+to import express in node 
+API is build using express
+
+
